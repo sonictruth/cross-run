@@ -1,0 +1,16 @@
+{
+  "name": "cross-run",
+  "version": "0.0.1",
+  "description": "Run npm/yarn commands using cross-env.",
+  "bin": {
+    "cross-run": "bin/cross-run.js"
+  },
+  "scripts": {
+    "testScript": "GREET=\"Moe\" echo Great"
+  },
+  "main": "./lib/index.js",
+  "preferGlobal": "true",
+  "devDependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
